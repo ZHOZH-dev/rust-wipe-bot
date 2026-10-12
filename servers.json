@@ -1,0 +1,974 @@
+[
+  {
+    "id": 33525404,
+    "label": "Владивосток | ДЛЯ НОВИЧКОВ | INSOMNIS",
+    "network": "восток",
+    "schedule": "type=monthly;week=1;day=4;time=21:43"
+  },
+  {
+    "id": 5450203,
+    "label": "ВОСТОК | ДЛЯ НОВИЧКОВ X1.5",
+    "network": "восток",
+    "schedule": "type=monthly;week=1;day=4;time=21:33"
+  },
+  {
+    "id": 49845187,
+    "label": "ВОСТОК | КЛАССИКА X2",
+    "network": "восток",
+    "schedule": "type=weekly;day=5;time=08:56"
+  },
+  {
+    "id": 50056715,
+    "label": "ВОСТОК | MONDAY X2",
+    "network": "восток",
+    "schedule": "type=weekly;day=1;time=08:55"
+  },
+  {
+    "id": 49845189,
+    "label": "ВОСТОК | WEDNESDAY X2",
+    "network": "восток",
+    "schedule": "type=weekly;day=3;time=08:56"
+  },
+  {
+    "id": 13939856,
+    "label": "Восток. Сибирь. Москва  ClASSIC X2 | SwagRust",
+    "network": "восток",
+    "schedule": "type=weekly;day=5;time=10:50"
+  },
+  {
+    "id": 33525407,
+    "label": "ICERUST | Дальний восток [24/7]",
+    "network": "восток",
+    "schedule": "type=monthly;week=1;day=5;time=17:58"
+  },
+  {
+    "id": 49914783,
+    "label": "[EU] BestAtlas PvE x2|Vanilla|Next Wipe 03/09|No PvP/Raid|UKNL",
+    "network": "atlas",
+    "schedule": "type=weekly;day=5;time=23:19"
+  },
+  {
+    "id": 50209180,
+    "label": "♨ TEATIME.GG ATLAST ★ 3x TRIO ★ LOOT+++ ★ KITS ★ WIPE",
+    "network": "atlas",
+    "schedule": "type=weekly;day=7;time=20:58"
+  },
+  {
+    "id": 50208375,
+    "label": "Atlas - 10x Development",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:46"
+  },
+  {
+    "id": 51221640,
+    "label": "Atlas - 2X Monthly | JUST WIPED 11.10",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=6;time=04:51"
+  },
+  {
+    "id": 50208915,
+    "label": "Atlas - 2x Quad Development",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:52"
+  },
+  {
+    "id": 51201936,
+    "label": "Atlas - EU  | No BPs | Mondays",
+    "network": "atlas",
+    "schedule": "type=weekly;day=6;time=11:19"
+  },
+  {
+    "id": 50122341,
+    "label": "Atlas - EU 10x | No BPs | Kits | Shop",
+    "network": "atlas",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 50122288,
+    "label": "Atlas - EU 2X Medium | Vanilla+ | No BP Wipes",
+    "network": "atlas",
+    "schedule": "type=weekly;day=4;time=20:56"
+  },
+  {
+    "id": 50122364,
+    "label": "Atlas - EU 2X Monthly | Vanilla+ | No BP Wipes",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=21:01"
+  },
+  {
+    "id": 50122354,
+    "label": "Atlas - EU 2X Monthly Solo/Duo/Trio/Quad | Vanilla+ | No BP Wip",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=21:04"
+  },
+  {
+    "id": 51221653,
+    "label": "Atlas - EU 2X Monthly Solo/Duo/Trio/Quad | Vanilla+ | No BP Wip",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=6;time=05:51"
+  },
+  {
+    "id": 50056700,
+    "label": "Atlas - EU 3x | No BPs | Mondays",
+    "network": "atlas",
+    "schedule": "type=weekly;day=1;time=17:58"
+  },
+  {
+    "id": 51221652,
+    "label": "Atlas - EU 3x | No BPs | Mondays",
+    "network": "atlas",
+    "schedule": "type=weekly;day=6;time=09:51"
+  },
+  {
+    "id": 50122301,
+    "label": "Atlas - EU 5x | No BPs | Kits",
+    "network": "atlas",
+    "schedule": "type=weekly;day=6;time=14:58"
+  },
+  {
+    "id": 11828867,
+    "label": "Atlas - EU Long | Vanilla | No BP wipes",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:59"
+  },
+  {
+    "id": 50929439,
+    "label": "Atlas - Maps Preview",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=22:21"
+  },
+  {
+    "id": 50209068,
+    "label": "Atlas - US 10x | No BPs | Kits | Shop",
+    "network": "atlas",
+    "schedule": "type=weekly;day=6;time=00:00"
+  },
+  {
+    "id": 50208629,
+    "label": "Atlas - US 2X Medium | Vanilla+ | No BP Wipes",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:58"
+  },
+  {
+    "id": 50208580,
+    "label": "Atlas - US 2X Monthly | Vanilla+ | No BP Wipes",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:59"
+  },
+  {
+    "id": 50208247,
+    "label": "Atlas - US 2X Monthly Solo/Duo/Trio/Quad | Vanilla+ | No BP Wip",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=20:58"
+  },
+  {
+    "id": 5453487,
+    "label": "Atlas // CSL - Ranked | Battlefield | Aimtrain | Scrims | FFA",
+    "network": "atlas",
+    "schedule": "type=monthly;week=1;day=4;time=21:14"
+  },
+  {
+    "id": 51306659,
+    "label": "♨ TEATIME СТРОЙКА|1v1|АИМ|ИГРЫ|MAGIC RUST ROOM",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=00:21"
+  },
+  {
+    "id": 38840366,
+    "label": "Arcane Magic Rust #4 - NoLimit Modded | TP | Kits",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=13:59"
+  },
+  {
+    "id": 51887068,
+    "label": "MAGIC RUST",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=7;time=18:20"
+  },
+  {
+    "id": 51626708,
+    "label": "Magic Rust — Long | Kлaccикa x1 | Pycc | JUST WIPED 11.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=6;time=02:44"
+  },
+  {
+    "id": 50056626,
+    "label": "Magic Rust — Long | Kлaccикa x1 | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=monthly;week=1;day=4;time=20:47"
+  },
+  {
+    "id": 4169975,
+    "label": "Magic Rust #13 — Vanilla 2x | Baйп 09.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=13:03"
+  },
+  {
+    "id": 50056625,
+    "label": "Magic Rust #14 —  Modded 2x (No limit) | Baйп 09.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=13:02"
+  },
+  {
+    "id": 5449924,
+    "label": "Magic Rust #16 — Modded 2x (Toлькo SOLO) | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=1;time=13:01"
+  },
+  {
+    "id": 50056619,
+    "label": "Magic Rust #18 — Vanilla 2x | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=3;time=12:52"
+  },
+  {
+    "id": 50056622,
+    "label": "Magic Rust #2 — Modded 2x (Solo/Duo) | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=1;time=13:02"
+  },
+  {
+    "id": 49845191,
+    "label": "Magic Rust #21 — Vanilla 2x | HOBOCИБ | Baйп 09.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=09:01"
+  },
+  {
+    "id": 50056596,
+    "label": "Magic Rust #22 — Vanilla 2x (Biweekly) | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=monthly;week=1;day=5;time=13:01"
+  },
+  {
+    "id": 50056604,
+    "label": "Magic Rust #27 — Vanilla 2x (Monthly) | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=monthly;week=1;day=4;time=20:59"
+  },
+  {
+    "id": 49845194,
+    "label": "Magic Rust #28 — Modded 2x (Duo) | HOBOCИБ | Baйп 09.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=09:01"
+  },
+  {
+    "id": 49851012,
+    "label": "Magic Rust #29 — Modded 2x (Solo/Duo) | Pyccкий",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=3;time=13:02"
+  },
+  {
+    "id": 50056620,
+    "label": "Magic Rust #3 — Modded 2x (Solo/Duo/Trio) | Baйп 09.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=5;time=13:04"
+  },
+  {
+    "id": 49881712,
+    "label": "Magic Rust #30 — Modded 2x (Solo/Duo) | Baйп 10.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=6;time=13:00"
+  },
+  {
+    "id": 50056623,
+    "label": "Magic Rust #31 — Modded 2x (Solo/Duo) | Baйп 11.10",
+    "network": "magic rust",
+    "schedule": "type=weekly;day=7;time=13:02"
+  },
+  {
+    "id": 51626709,
+    "label": "Magic Rust Vanilla (Monthly) JUST WIPED | 11.10",
+    "network": "magic rust",
+    "schedule": "type=monthly;week=1;day=5;time=22:44"
+  },
+  {
+    "id": 50056676,
+    "label": "[EU] RUST ROOM BUILD 2.0 by GJ | CREATIVE & SANDBOX",
+    "network": "rust room",
+    "schedule": "type=weekly;day=7;time=05:00"
+  },
+  {
+    "id": 50056598,
+    "label": "[RU] RUST ROOM BUILD 2.0 by GJ | CREATIVE & SANDBOX",
+    "network": "rust room",
+    "schedule": "type=weekly;day=7;time=05:00"
+  },
+  {
+    "id": 50206128,
+    "label": "[US] RUST ROOM BUILD 2.0 by GJ | CREATIVE & SANDBOX",
+    "network": "rust room",
+    "schedule": "type=weekly;day=7;time=05:00"
+  },
+  {
+    "id": 50209244,
+    "label": "♨ TEATIME US BUILD<CREATIVE<DROP<1v1<HELLISH RUST ROOM REBORN",
+    "network": "rust room",
+    "schedule": "type=weekly;day=7;time=14:48"
+  },
+  {
+    "id": 44811659,
+    "label": "♨ TEATIME.GG BUILD<CREATIVE<DROP<1v1<HELLISH RUST ROOM REBORN",
+    "network": "rust room",
+    "schedule": "type=weekly;day=7;time=07:12"
+  },
+  {
+    "id": 49857914,
+    "label": "RUST ROOM 1.5x | MAIN | Wipe 09.10",
+    "network": "rust room",
+    "schedule": "type=weekly;day=5;time=12:59"
+  },
+  {
+    "id": 50056627,
+    "label": "RUST ROOM 1.5x | MONDAYS | Wipe 05.10",
+    "network": "rust room",
+    "schedule": "type=weekly;day=1;time=13:06"
+  },
+  {
+    "id": 4860738,
+    "label": "RUST ROOM 1.5x | MONDAYS JR | Wipe 05.10",
+    "network": "rust room",
+    "schedule": "type=weekly;day=1;time=13:00"
+  },
+  {
+    "id": 20730396,
+    "label": "RUST ROOM 1.5x | Monthly | Wipe 01.10",
+    "network": "rust room",
+    "schedule": "type=monthly;week=1;day=4;time=20:38"
+  },
+  {
+    "id": 27014287,
+    "label": "RUST ROOM 1.5x | SATURDAY | Wipe 10.10",
+    "network": "rust room",
+    "schedule": "type=weekly;day=6;time=13:47"
+  },
+  {
+    "id": 5449526,
+    "label": "RUST ROOM 1.5x | WEDNESDAY | Wipe 07.10",
+    "network": "rust room",
+    "schedule": "type=weekly;day=3;time=16:04"
+  },
+  {
+    "id": 50208034,
+    "label": "[SEA] Lone Survivors - Main | Quad | 2x Gather | 10/08",
+    "network": "survivors",
+    "schedule": "type=weekly;day=4;time=15:28"
+  },
+  {
+    "id": 50208033,
+    "label": "[SEA] Lone Survivors - Medium | Solo | 2x Gather | 10/05",
+    "network": "survivors",
+    "schedule": "type=weekly;day=1;time=15:50"
+  },
+  {
+    "id": 50209024,
+    "label": "A Survivors Playground",
+    "network": "survivors",
+    "schedule": "type=weekly;day=1;time=17:06"
+  },
+  {
+    "id": 50342289,
+    "label": "Dad Bod Survivors | 2x Loot  | Monthly | Offline Raid Protectio",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=23:22"
+  },
+  {
+    "id": 5453183,
+    "label": "GamingSurvivors PVE | BOSS + SKILLS + RAIDS + LEGENDARY ITEM",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=22:49"
+  },
+  {
+    "id": 50343587,
+    "label": "OW Rust Refuge: A good start for new survivors",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=23:09"
+  },
+  {
+    "id": 50343632,
+    "label": "Senior Survivors of Rust/PVE/NO KILL/NO RAID",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=22:48"
+  },
+  {
+    "id": 50207828,
+    "label": "Survivors Cove PVE CustomAI|Contracts|NPC Bases|Convoys|Drugs|L",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=20:40"
+  },
+  {
+    "id": 51626711,
+    "label": "Survivors.gg  [ 3x Vanilla ] | JUST WIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=04:51"
+  },
+  {
+    "id": 50056665,
+    "label": "SURVIVORS.GG - Main [ 2x Vanilla ] WIPED 09.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=5;time=16:59"
+  },
+  {
+    "id": 50697023,
+    "label": "SURVIVORS.GG - Mondays [ 2x Vanilla ] WIPED 05.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=1;time=16:59"
+  },
+  {
+    "id": 51265998,
+    "label": "Survivors.gg [  Solo/Duo ]  | JUST WIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=02:51"
+  },
+  {
+    "id": 50056666,
+    "label": "SURVIVORS.GG [ 2x Solo/Duo ] FULLWIPED 10.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=17:59"
+  },
+  {
+    "id": 51265999,
+    "label": "Survivors.gg [ 2x Vanilla ] | JUST WIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=09:51"
+  },
+  {
+    "id": 51626710,
+    "label": "Survivors.gg [ 3x Solo/Duo ]  | JUST WIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=04:51"
+  },
+  {
+    "id": 50056660,
+    "label": "SURVIVORS.GG #1 [ 2x Solo/Duo/Trio/Quad ] FULLWIPED 08.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=4;time=14:58"
+  },
+  {
+    "id": 50056657,
+    "label": "SURVIVORS.GG #2 [ 2x Vanilla ] FULLWIPED 10.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=12:59"
+  },
+  {
+    "id": 50056648,
+    "label": "SURVIVORS.GG #3 [ 2x Solo/Duo/Trio ] FULLWIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=7;time=15:59"
+  },
+  {
+    "id": 50056663,
+    "label": "SURVIVORS.GG #4 [ 2x Solo/Duo/Trio/Quad/Max5 ] WIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=7;time=17:59"
+  },
+  {
+    "id": 50056664,
+    "label": "SURVIVORS.GG #5 [ 2x Solo/Duo/Trio ] FULLWIPED 09.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=5;time=14:58"
+  },
+  {
+    "id": 50056652,
+    "label": "SURVIVORS.GG #6 [ 2x Solo/Duo/Trio/Quad ] FULLWIPED 10.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=6;time=15:59"
+  },
+  {
+    "id": 50056656,
+    "label": "SURVIVORS.GG #7 [ 2x Vanilla ] FULLWIPED 11.10",
+    "network": "survivors",
+    "schedule": "type=weekly;day=7;time=12:59"
+  },
+  {
+    "id": 3198354,
+    "label": "SURVIVORS.GG | 2 x Vanilla | Monthly",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=2;time=15:54"
+  },
+  {
+    "id": 5451778,
+    "label": "SURVIVORS.GG | 2x Monthly | Solo/Duo/Trio/Quad",
+    "network": "survivors",
+    "schedule": "type=monthly;week=1;day=4;time=20:48"
+  },
+  {
+    "id": 5452623,
+    "label": "WARBANDITS.GG |Main|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=4;time=14:56"
+  },
+  {
+    "id": 5452771,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio/Quad/Max5|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=2;time=13:56"
+  },
+  {
+    "id": 5452567,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio/Quad/Max6|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=1;time=14:56"
+  },
+  {
+    "id": 50209182,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio/Quad|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=19:56"
+  },
+  {
+    "id": 5452715,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio/Quad|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=16:56"
+  },
+  {
+    "id": 5452720,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 50209123,
+    "label": "WARBANDITS.GG |Solo/Duo/Trio|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=19:56"
+  },
+  {
+    "id": 5452550,
+    "label": "WARBANDITS.GG |Solo/Duo|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=15:56"
+  },
+  {
+    "id": 50208896,
+    "label": "WARBANDITS.GG |Solo/Duo|Weekly| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=20:56"
+  },
+  {
+    "id": 4402776,
+    "label": "WARBANDITS.GG 10X No BPs Loot++|PvP|MyMini|Shop|Noob Friendly|X",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=20:56"
+  },
+  {
+    "id": 50209317,
+    "label": "WARBANDITS.GG 2X |Solo/Duo/Trio/Quad/Max5| JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=20:56"
+  },
+  {
+    "id": 50208232,
+    "label": "WARBANDITS.GG 2X |Solo/Duo/Trio/Quad| JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=20:56"
+  },
+  {
+    "id": 51517932,
+    "label": "WARBANDITS.GG 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=20:56"
+  },
+  {
+    "id": 50208714,
+    "label": "WARBANDITS.GG 2X |Solo/Duo|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=20:56"
+  },
+  {
+    "id": 50208654,
+    "label": "WARBANDITS.GG 2X Monthly |Solo/Duo/Trio/Quad|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=7;time=15:59"
+  },
+  {
+    "id": 50209051,
+    "label": "WARBANDITS.GG 2X Monthly |Solo/Duo/Trio|Shared BPs| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=2;time=14:59"
+  },
+  {
+    "id": 1736256,
+    "label": "WARBANDITS.GG 2X SOLO ONLY|Loot+|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=20:56"
+  },
+  {
+    "id": 50209035,
+    "label": "WARBANDITS.GG 2X Weekly |Solo/Duo/Trio/Quad|Shared BPs| Just Wi",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=19:56"
+  },
+  {
+    "id": 50208946,
+    "label": "WARBANDITS.GG 2X Weekly |Solo/Duo/Trio|Shared BPs| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=2;time=20:57"
+  },
+  {
+    "id": 50969846,
+    "label": "WARBANDITS.GG 2X Weekly |Solo/Duo|Shared BPs| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=3;time=22:57"
+  },
+  {
+    "id": 50208706,
+    "label": "WARBANDITS.GG 3X |Solo/Duo/Trio/Quad/Max5|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=21:56"
+  },
+  {
+    "id": 50208625,
+    "label": "WARBANDITS.GG 3X |Solo/Duo/Trio/Quad|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=21:56"
+  },
+  {
+    "id": 50209328,
+    "label": "WARBANDITS.GG 3X |Solo/Duo/Trio|LootX3| JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=20:57"
+  },
+  {
+    "id": 51696140,
+    "label": "WARBANDITS.GG 3X |Solo/Duo|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=20:56"
+  },
+  {
+    "id": 5452695,
+    "label": "WARBANDITS.GG 3X EU Monthly |Solo/Duo/Trio/Quad/Max5|Shared BPs",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 51767499,
+    "label": "WARBANDITS.GG 3X EU Monthly |Solo/Duo/Trio/Quad|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 5452585,
+    "label": "WARBANDITS.GG 3X EU Monthly |Solo/Duo/Trio|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 5452742,
+    "label": "WARBANDITS.GG 3X EU Monthly |Solo/Duo|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 50209340,
+    "label": "WARBANDITS.GG 3X Monthly |Solo/Duo/Trio/Quad|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=5;time=07:00"
+  },
+  {
+    "id": 50422309,
+    "label": "WARBANDITS.GG 3X SOLO ONLY|Loot+|X3 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=21:56"
+  },
+  {
+    "id": 1598941,
+    "label": "WARBANDITS.GG 5X |Solo/Duo/Trio/Quad|Loot+|TP|Kits|x5 JUST WIPE",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=21:56"
+  },
+  {
+    "id": 50208783,
+    "label": "WARBANDITS.GG 5X |Solo/Duo/Trio|Loot+|TP|Kits|x5 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=20:56"
+  },
+  {
+    "id": 4402679,
+    "label": "WARBANDITS.GG 5X No BPs |Loot++|PvP|MyMini|Shop|X5 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=21:56"
+  },
+  {
+    "id": 50480019,
+    "label": "WARBANDITS.GG AU 2X |Solo/Duo/Trio|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=06:56"
+  },
+  {
+    "id": 50480014,
+    "label": "WARBANDITS.GG AU 2X Monthly |Solo/Duo/Trio/Quad|Shared BPs|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 50480049,
+    "label": "WARBANDITS.GG AU 3X |Solo/Duo/Trio/Quad/Max5|x3 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=05:56"
+  },
+  {
+    "id": 50480027,
+    "label": "WARBANDITS.GG AU 3X |Solo/Duo/Trio|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=06:56"
+  },
+  {
+    "id": 50480039,
+    "label": "WARBANDITS.GG AU 3X |Solo/Duo|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=06:56"
+  },
+  {
+    "id": 50480054,
+    "label": "WARBANDITS.GG AU 5X No BPs |Loot++|PvP|MyMini|Shop|X5 JUST WIPE",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=05:56"
+  },
+  {
+    "id": 50480728,
+    "label": "WARBANDITS.GG BR 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=22:56"
+  },
+  {
+    "id": 50480738,
+    "label": "WARBANDITS.GG BR 3X |Solo/Duo/Trio|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=22:56"
+  },
+  {
+    "id": 50343746,
+    "label": "WARBANDITS.GG BR 3X |Solo/Duo|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=22:56"
+  },
+  {
+    "id": 5452626,
+    "label": "WARBANDITS.GG EU 10X No BPs Loot++|PvP|MyMini|Shop|Noob Friendl",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=14:56"
+  },
+  {
+    "id": 50056683,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio/Quad/Max5| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 5452661,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio/Quad/Max6| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=12:56"
+  },
+  {
+    "id": 50056651,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio/Quad|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:56"
+  },
+  {
+    "id": 49914969,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio/Quad|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:58"
+  },
+  {
+    "id": 50056659,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=15:56"
+  },
+  {
+    "id": 50122321,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=16:12"
+  },
+  {
+    "id": 50056684,
+    "label": "WARBANDITS.GG EU 2X |Solo/Duo|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 5452621,
+    "label": "WARBANDITS.GG EU 2X Monthly |Solo/Duo/trio/quad/Max5|No BP Wipe",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 5452756,
+    "label": "WARBANDITS.GG EU 2X Monthly |Solo/Duo/Trio/Quad|No BP Wipes|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=1;time=17:58"
+  },
+  {
+    "id": 5452572,
+    "label": "WARBANDITS.GG EU 2X Monthly |Solo/Duo/Trio|No BP Wipes|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=07:00"
+  },
+  {
+    "id": 5452778,
+    "label": "WARBANDITS.GG EU 2X Monthly |Solo/Duo|No BP Wipes|",
+    "network": "warbandits",
+    "schedule": "type=monthly;week=1;day=4;time=20:42"
+  },
+  {
+    "id": 279752,
+    "label": "WARBANDITS.GG EU 2X SOLO ONLY|Loot+|X2 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:56"
+  },
+  {
+    "id": 5452609,
+    "label": "WARBANDITS.GG EU 2X Weekly |Solo/Duo/Trio/Quad|Shared BPs| Just",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=1;time=15:56"
+  },
+  {
+    "id": 5452582,
+    "label": "WARBANDITS.GG EU 2X Weekly |Solo/Duo/Trio|Shared BPs| Just Wipe",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=16:56"
+  },
+  {
+    "id": 5452736,
+    "label": "WARBANDITS.GG EU 2X Weekly |Solo/Duo|Shared BPs| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=2;time=16:56"
+  },
+  {
+    "id": 50056671,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio/Quad/Max5|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:56"
+  },
+  {
+    "id": 50122330,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio/Quad/Max5|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:58"
+  },
+  {
+    "id": 5452652,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio/Quad/Max6|LootX3|Clans| JUST",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=12:56"
+  },
+  {
+    "id": 50056685,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio/Quad|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 50056655,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=15:56"
+  },
+  {
+    "id": 50056709,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo/Trio|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=18:00"
+  },
+  {
+    "id": 50056680,
+    "label": "WARBANDITS.GG EU 3X |Solo/Duo|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=15:56"
+  },
+  {
+    "id": 50083839,
+    "label": "WARBANDITS.GG EU 3X SOLO ONLY|Loot+|X3 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=15:56"
+  },
+  {
+    "id": 5452564,
+    "label": "WARBANDITS.GG EU 3X Weekly |Solo/Duo/Trio/Quad|LootX3| Just Wip",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=14:56"
+  },
+  {
+    "id": 5452713,
+    "label": "WARBANDITS.GG EU 3X Weekly |Solo/Duo/Trio|LootX3| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=1;time=15:56"
+  },
+  {
+    "id": 5452753,
+    "label": "WARBANDITS.GG EU 3X Weekly |Solo/Duo|LootX3| Just Wiped",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 279550,
+    "label": "WARBANDITS.GG EU 5X |Solo/Duo/Trio/Quad|Loot+|TP|Kits|x5 JUST W",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=16:56"
+  },
+  {
+    "id": 279383,
+    "label": "WARBANDITS.GG EU 5X |Solo/Duo/Trio|Loot+|TP|Kits|x5 JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=15:56"
+  },
+  {
+    "id": 50056678,
+    "label": "WARBANDITS.GG EU 5X No BPs |Loot++|PvP|MyMini|Shop|X5 JUST WIPE",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=16:56"
+  },
+  {
+    "id": 5450000,
+    "label": "WARBANDITS.GG RU 2X |Solo/Duo/|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=11:56"
+  },
+  {
+    "id": 5449960,
+    "label": "WARBANDITS.GG RU 2X |Solo/Duo/Trio/Quad|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=11:56"
+  },
+  {
+    "id": 5449899,
+    "label": "WARBANDITS.GG RU 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=5;time=11:56"
+  },
+  {
+    "id": 5449998,
+    "label": "WARBANDITS.GG RU 3X |Solo/Duo|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=4;time=12:56"
+  },
+  {
+    "id": 50208006,
+    "label": "WARBANDITS.GG SEA 2X |Solo/Duo/Trio|X2 JUST FULLWIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=09:57"
+  },
+  {
+    "id": 51145772,
+    "label": "WARBANDITS.GG SEA 3X |Solo/Duo/Trio/Quad|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=6;time=14:09"
+  },
+  {
+    "id": 50208021,
+    "label": "WARBANDITS.GG SEA 3X |Solo/Duo/Trio|LootX3| JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=7;time=09:57"
+  },
+  {
+    "id": 5452628,
+    "label": "WARBANDITS.GG Solo Only - Weekly | JUST WIPED",
+    "network": "warbandits",
+    "schedule": "type=weekly;day=3;time=13:56"
+  }
+]

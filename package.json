@@ -1,0 +1,21 @@
+{
+  "name": "rust-wipe-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that shows Rust server wipe information",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "generate": "node src/scripts/generate-servers.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.5.0"
+  }
+}
