@@ -61,14 +61,14 @@ test("network field includes next wipe and recent last wipe", () => {
   assert.doesNotMatch(fields[1].value, /С последнего вайпа прошло/);
 });
 
-test("network field includes the inline connect line when address is known", () => {
+test("network field includes a per-server connect code block when address is known", () => {
   const entries = [makeEntry({ id: 1 }), makeEntry({ id: 2 })];
   const liveServers = [
     makeLiveServer({ id: 1 }),
     makeLiveServer({ id: 2, address: null }),
   ];
   const fields = buildNetworkFields(entries, liveServers, MOSCOW, 24, now);
-  assert.match(fields[0].value, /`connect 168\.100\.161\.166:28015`/);
+  assert.match(fields[0].value, /```connect 168\.100\.161\.166:28015```/);
   assert.doesNotMatch(fields[1].value, /connect/);
 });
 

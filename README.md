@@ -3,7 +3,7 @@
 Discord bot that shows wipe information for Rust server networks via the `/wipe` slash command:
 
 - `/wipe` — overview: one field per network — the earliest upcoming wipe among its servers with that server's name and its `connect` string (code block), the most recent wipe (if within 24 h) and the server count.
-- `/wipe network:<choice>` — the servers of one network (top 25 by online), each with the next wipe and time since the last wipe (if within 24 h).
+- `/wipe network:<choice>` — the servers of one network (top 25 by online), each with the next wipe, time since the last wipe (if within 24 h) and its `connect` string (code block).
 - `/wipe server:<autocomplete>` — a single server: next wipe, time since the last wipe, online and map.
 - Replies are in Russian.
 

@@ -185,9 +185,8 @@ function buildServerValue(entry, live, timezone, thresholdHours, now) {
   if (sinceLine) {
     lines.push(sinceLine);
   }
-  const connectLine = inlineConnectLine(live?.address ?? null);
-  if (connectLine) {
-    lines.push(connectLine);
+  if (live?.address) {
+    lines.push(codeBlockConnectLine(live.address));
   }
   return lines.join("\n");
 }
@@ -202,13 +201,6 @@ function nextWipeLine(schedule, timezone, now) {
   }
   const unix = toUnixSeconds(next.date);
   return `Следующий вайп: через ${formatDuration(next.date.getTime() - now)} — <t:${unix}:F> (<t:${unix}:R>)`;
-}
-
-function inlineConnectLine(address) {
-  if (!address) {
-    return null;
-  }
-  return `\`connect ${address}\``;
 }
 
 function codeBlockConnectLine(address) {
