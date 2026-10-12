@@ -113,9 +113,14 @@ export function buildOverviewField(
   now
 ) {
   const lines = [];
-  const earliest = earliestNextWipe(entries, timezone, now);
+  const earliest = earliestNextWipeEntry(entries, timezone, now);
   if (earliest) {
-    lines.push(formatNextWipe(earliest, now));
+    lines.push(formatNextWipe(earliest.date, now));
+    lines.push(earliest.entry.label.slice(0, 256));
+    const live = liveServers.find((server) => server.id === earliest.entry.id);
+    if (live?.address) {
+      lines.push(codeBlockConnectLine(live.address));
+    }
   } else {
     lines.push("Ближайший вайп: расписание неизвестно");
   }
@@ -127,7 +132,7 @@ export function buildOverviewField(
   return { name: capitalize(network), value: lines.join("\n") };
 }
 
-function earliestNextWipe(entries, timezone, now) {
+function earliestNextWipeEntry(entries, timezone, now) {
   let earliest = null;
   for (const entry of entries) {
     if (!entry.schedule) {
@@ -137,8 +142,8 @@ function earliestNextWipe(entries, timezone, now) {
     if (next.isPast) {
       continue;
     }
-    if (!earliest || next.date < earliest) {
-      earliest = next.date;
+    if (!earliest || next.date < earliest.date) {
+      earliest = { entry, date: next.date };
     }
   }
   return earliest;
@@ -206,6 +211,10 @@ function inlineConnectLine(address) {
   return `\`connect ${address}\``;
 }
 
+function codeBlockConnectLine(address) {
+  return `\`\`\`connect ${address}\`\`\``;
+}
+
 function lastWipeLine(lastWipe, thresholdHours, now) {
   if (!shouldShowLastWipe(lastWipe, now, thresholdHours)) {
     return null;
@@ -222,7 +231,7 @@ export function buildSingleServerEmbed(entry, live, timezone, thresholdHours, no
     embed.addFields({ name: "Последний вайп", value: sinceLine });
   }
   if (live?.address) {
-    embed.addFields({ name: "Подключение", value: `\`\`\`connect ${live.address}\`\`\`` });
+    embed.addFields({ name: "Подключение", value: codeBlockConnectLine(live.address) });
   }
   if (live) {
     const players = live.players != null ? `${live.players}/${live.maxPlayers ?? "?"}` : "н/д";

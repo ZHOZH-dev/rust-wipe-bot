@@ -91,7 +91,7 @@ test("network field handles missing live data and schedule", () => {
   assert.match(fields[1].value, /Следующий вайп: через/);
 });
 
-test("overview embed shows one field per network with earliest wipe and server count", () => {
+test("overview embed shows one field per network with earliest wipe, its server and connect block", () => {
   const summaries = [
     {
       network: "atlas",
@@ -100,7 +100,10 @@ test("overview embed shows one field per network with earliest wipe and server c
         makeEntry({ id: 2, schedule: { type: "weekly", day: 3, hour: 15, minute: 0 } }),
         makeEntry({ id: 3, schedule: null }),
       ],
-      liveServers: [makeLiveServer({ id: 1, lastWipe: new Date(now - 3 * HOUR_MS) })],
+      liveServers: [
+        makeLiveServer({ id: 1, lastWipe: new Date(now - 3 * HOUR_MS) }),
+        makeLiveServer({ id: 2, lastWipe: null }),
+      ],
     },
     {
       network: "survivors",
@@ -115,10 +118,37 @@ test("overview embed shows one field per network with earliest wipe and server c
   const expectedEarliest = DateTime.fromISO("2026-10-14T12:00:00", { zone: "utc" }).toMillis();
   const unix = Math.floor(expectedEarliest / 1000);
   assert.match(fields[0].value, new RegExp(`<t:${unix}:F>`));
+  assert.match(fields[0].value, /Test Server/);
+  assert.match(fields[0].value, /```connect 168\.100\.161\.166:28015```/);
   assert.match(fields[0].value, /С последнего вайпа прошло: 3 ч/);
   assert.match(fields[0].value, /Серверов: 3/);
   assert.equal(fields[1].name, "Survivors");
   assert.doesNotMatch(fields[1].value, /С последнего вайпа прошло/);
+});
+
+test("overview field hides the connect block when the nearest server has no address", () => {
+  const field = buildOverviewField(
+    "atlas",
+    [makeEntry({ id: 1, schedule: { type: "weekly", day: 3, hour: 15, minute: 0 } })],
+    [makeLiveServer({ id: 1, address: null })],
+    MOSCOW,
+    24,
+    now
+  );
+  assert.match(field.value, /Test Server/);
+  assert.doesNotMatch(field.value, /connect/);
+});
+
+test("overview field hides the connect block without live data", () => {
+  const field = buildOverviewField(
+    "atlas",
+    [makeEntry({ id: 1, schedule: { type: "weekly", day: 3, hour: 15, minute: 0 } })],
+    [],
+    MOSCOW,
+    24,
+    now
+  );
+  assert.doesNotMatch(field.value, /connect/);
 });
 
 test("overview field falls back when no schedule is known", () => {
